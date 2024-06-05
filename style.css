@@ -1,0 +1,47 @@
+h1{
+    font-family:Jaro;
+    text-align:center;
+    color:cadetblue;
+    -webkit-text-stroke: 1px black;
+    font-size:50px;
+  }
+.container{
+background-color: black;
+height:250px;
+width:800px;
+
+margin-left:auto;
+margin-right: auto;
+margin-top:100px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap:50px;
+
+}
+body{
+    background-color: rgb(0,0,0,0.5); 
+}
+.marker{
+    height: 150px;
+    width:150px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);/*forms traingle
+*/    
+}
+.orange{
+    background:linear-gradient(rgb(224, 169, 102),rgb(196, 170, 26),rgb(231, 100, 7));
+    
+}
+.green{
+  
+    background:linear-gradient(#B0FC38,#5DBB63,#03AC13);
+}
+.violet{
+    background: linear-gradient(#DDA0DD, #6d417f, #3f0872);
+}
+.upper,.lower,.middle{
+height:40px;
+border-bottom: 5px solid black;
+}
